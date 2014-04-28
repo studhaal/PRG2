@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class MountainSort<T> {
 
-    private List<Mountain> bergListe = new ArrayList<Mountain>();
+    private ArrayList<Mountain> bergListe = new ArrayList<Mountain>();
 
     public void sortiereBerge(){  
         bergListe.add(new Mountain("Weisshorn", 2653)); // Arosa

@@ -6,7 +6,6 @@ public class HeightCompare implements Comparator <Mountain> {
     @Override
     public int compare(Mountain b1, Mountain b2) {
         return (b1.getHeight() - b2.getHeight());
-        // hier steht Ihre Implementation
     }
     @Override
     public boolean equals(Object obj)

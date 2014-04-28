@@ -10,7 +10,7 @@ package sw7;
  *
  * @author studhaal
  */
-public class Cube implements Comparable <Cube> {
+public class Cube implements Comparable<Cube> {
 
     private int number;
     private int s1, s2, s3;
